@@ -29,3 +29,5 @@ No config path provided, using default 'drizzle.config.ts'
 Reading config file '/Users/rg/Projects/cosnet/drizzle.config.ts'
 Please install either 'better-sqlite3' or '@libsql/client' for Drizzle Kit to connect to SQLite databases
 ```
+
+When you install this package, Drizzle Kit will use `bun:sqlite` and you won't have to install any other package.
