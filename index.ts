@@ -64,6 +64,10 @@ class Statement {
   bind(...params: any[]): Statement {
     return new Statement(this.stmt, this.verbose, params)
   }
+
+  raw(): Statement {
+    return this
+  }
 }
 
 class Database {
@@ -98,7 +102,7 @@ class Database {
   }
 
   transaction<T extends (...args: any[]) => any>(fn: T): T {
-    return this.db.transaction(fn)
+    return this.db.transaction(fn) as unknown as T
   }
 }
 
