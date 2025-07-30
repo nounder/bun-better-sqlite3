@@ -1,3 +1,5 @@
+# better-sqlite3 x bun:sqlite
+
 [better-sqlite3](https://github.com/WiseLibs/better-sqlite3) x [bun:sqlite](https://bun.com/docs/api/sqlite) compatibility layer.
 It's simple. It's around 100 lines. And it works.
 
