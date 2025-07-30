@@ -74,7 +74,7 @@ class Database {
     this.db = new BunDatabase(path, {
       readwrite: !options.readonly,
       readonly: options.readonly,
-      timeout: options.timeout,
+      create: true,
     })
     this.verbose = options.verbose
   }
