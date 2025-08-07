@@ -2,7 +2,6 @@
   "name": "bun-better-sqlite3",
   "module": "index.ts",
   "type": "module",
-  "private": true,
   "devDependencies": {
     "@types/bun": "latest"
   },
